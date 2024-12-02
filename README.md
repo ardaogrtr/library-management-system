@@ -38,7 +38,7 @@ Make sure you have the following installed on your system:
 ## Project Setup and Running
 
 ### 1. Clone the Repository
-First, clone the repository to your local machine.
+First, clone the repository to your local machine, create a database.
 ## Set Up Environment Variables
 Create a .env file in the root of the project directory. The .env file should contain the following variables:
 
@@ -48,6 +48,10 @@ DB_PASSWORD=your_database_password
 DB_NAME=your_database_name
 DB_PORT=your_database_port
 PORT=your_preferred_port  # e.g., 3000
+
+- After run 'npm install'
+- Finally run 'npm start' 
+
 ## API Endpoints
 
 ### User Management
